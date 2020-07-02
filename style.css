@@ -39,6 +39,7 @@ header{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     height: 366px;
+    margin-bottom: 30px;
    
 }
 
@@ -69,5 +70,27 @@ header{
     position: absolute;
     bottom: 0;
     right: 100px;
+}
+
+.cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+
+.card-image img{
+    height: 140px;
+    border-radius: 15px;
+}
+
+.card-content h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-content p{
+    font-size:14px;
+    color:#777777;
 }
 
