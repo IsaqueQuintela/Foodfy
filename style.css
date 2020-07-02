@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    width:940px;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*===== Menu barra superior ===== */
+
+nav{
+    padding: 20px 0;
+}
+
+nav img{
+    height: 26px;
+    width: 90px;
+    padding-right: 122px;
+  
+}
+
+nav a{
+    vertical-align: super;
+    text-decoration: none;
+    padding-right:30px;
+    font-size: 16px;
+}
+
+header{
+    background-color:#FBDFDB ;
+    border-radius: 20px;
+}
+
